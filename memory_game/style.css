@@ -26,12 +26,13 @@ body {
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
-    transition: transform .3s;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
 }
 
  .memory-card:active {
-    transform: scale(.97);
-    transition: transform .7s;
+    transform: scale(0.97);
+    transition: transform .2s;
 }
 
 .memory-card.flip {
